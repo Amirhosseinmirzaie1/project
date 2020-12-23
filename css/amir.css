@@ -1,0 +1,125 @@
+/* CSS Document */
+ @font-face{
+	font-family: 'Byekan' ;
+	src: url(../fonts/WebYekan.woff) format('woff');
+	font-weight: normal !important;
+}
+@font-face{
+	font-family: 'Irsans' ;
+	src: url(../fonts/IRANSansWeb.woff) format('woff');
+	font-weight:normal !important;
+}
+html , body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Irsans' ;
+}
+.navamir{
+	background-color:#000051;
+	border-color:#000051;
+}
+#prod:focus{
+	color: red;
+}
+.cardpic{
+	margin: 120px auto 15px auto;
+	width: 780px;
+	height: 485px;
+}
+.card-title{
+	color: darkred;
+	font-size: 20px;
+	font-weight: bold;
+}
+.card-text span{
+	font-size: 11px;
+	color: blue;
+	font-weight: bold;
+}
+.font{
+	font-family: 'Byekan';
+	font-size: 15px;
+	font-weight: bold;
+}
+.hr1{
+	margin: 20px 0px 25px 0px;
+}
+.panel1, .flip1 {
+  padding: 5px;
+  text-align: right;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.panel1 {
+  padding: 50px;
+  display: none;
+	height: 200px;
+}
+.flip1:hover{
+	cursor: pointer;
+}
+.product_content{
+	margin:100px auto;
+	max-width:85%;
+	min-height: 420px;
+	height: auto;
+	background-color: #ededed;
+	padding: 10px;
+	border-radius: 15px;
+}
+.product_content h2{
+	margin-left: 50px;
+	color:red;
+	padding: 4px 0px 0px 0px;
+}
+.product{
+	width: 250px;
+	min-height: 300px;
+	float: left;
+	margin:0px 30px;
+	text-align: center;
+}
+.product-pic{
+	width: 100%;
+	height: 280px;
+}
+.product-price{
+	color:#000000;
+	font-size: 13px;
+}
+.product-price span{
+	color: red;
+	font-size: 17px;
+}
+.description{
+	text-align: right;
+	float: right;
+}
+.description p{
+	font-family: 'Byekan';
+	font-weight: bold;
+	color:firebrick;
+}
+.clearfix{
+	clear: both;
+}
+.readmore{
+	background-color:#D8FF00;
+	width: 100px;
+	border-radius: 15px;
+	margin: 20px 0px;
+	padding: 10px 5px;
+	display: inline-block;
+	color:red;
+	font-family: 'Byekan' ;
+	font-weight: bold;
+	text-align: center;
+}
+.readmore:hover{
+	background-color:aquamarine;
+	transition: all linear 0.6s;
+}
+a{
+	text-decoration: none;
+}
